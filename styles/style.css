@@ -1,0 +1,63 @@
+body {
+  font-family:helvetica;
+}
+button {
+  background-color:blue;
+  display:inline-block;
+  color:#fff;
+  border-radius:5px;
+  padding:1%;
+  margin:1%;
+}
+#results {
+  width:100%;
+  height:auto;
+  border-color:#000;
+  overflow-y:auto;
+  height:450px;
+  border:1px solid #999;
+  border-radius:8px;
+}
+article {
+  width:90%;
+  margin:0 auto;
+}
+#create {
+  background-color:green;
+}
+#duplicate {
+  color:red;
+}
+#frm {
+  width:90%;
+  margin-left:10%;
+}
+input {
+  display:block;
+}
+li {
+  display:inline-block;
+  padding:1% 0%;
+  width:16.5%;
+}
+li.control {
+  width:3%;
+  padding:1% 2%;
+}
+ul {
+  margin:0;
+}
+ul:nth-child(even){
+  background-color:#ccc;
+}
+ul:nth-child(odd){
+  background-color:#fff;
+}
+label{
+  display:inline-block;
+}
+#resultHeader {
+  background-color:#0099ff;
+  font-weight:bold;
+  margin:0;
+}
